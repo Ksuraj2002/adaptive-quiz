@@ -1,8 +1,8 @@
 from fastapi import FastAPI,HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from logic import authenticate
+from app.logic import authenticate
 from pydantic import BaseModel
-from routes import ques
+from app.routes import ques
 import uvicorn
 
 
