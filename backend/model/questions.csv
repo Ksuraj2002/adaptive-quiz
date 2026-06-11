@@ -1,0 +1,21 @@
+id,diff,ques,op1,op2,op3,op4,correct
+1,1,What is the capital of India?,Mumbai,New Delhi,Kolkata,Chennai,New Delhi
+2,1,Which planet is known as the Red Planet?,Earth,Mars,Venus,Jupiter,Mars
+3,1,How many days are there in a leap year?,364,365,366,367,366
+4,1,Which animal is known as the King of the Jungle?,Tiger,Lion,Elephant,Leopard,Lion
+5,2,Who wrote the Indian national anthem?,Rabindranath Tagore,Mahatma Gandhi,Subhas Chandra Bose,Sarojini Naidu,Rabindranath Tagore
+6,2,Which is the largest ocean on Earth?,Atlantic Ocean,Indian Ocean,Pacific Ocean,Arctic Ocean,Pacific Ocean
+7,2,What is the chemical symbol for gold?,Ag,Au,Gd,Go,Au
+8,2,Which country is home to the Great Pyramids of Giza?,Greece,Egypt,Turkey,Italy,Egypt
+9,2,Who invented the telephone?,Thomas Edison,Alexander Graham Bell,Nikola Tesla,James Watt,Alexander Graham Bell
+10,3,Which gas do plants absorb from the atmosphere?,Oxygen,Nitrogen,Carbon Dioxide,Hydrogen,Carbon Dioxide
+11,3,What is the largest mammal in the world?,Elephant,Giraffe,Blue Whale,Hippopotamus,Blue Whale
+12,3,Which continent is the Sahara Desert located in?,Asia,Australia,Africa,South America,Africa
+13,3,Who was the first person to walk on the Moon?,Yuri Gagarin,Neil Armstrong,Buzz Aldrin,John Glenn,Neil Armstrong
+14,4,Which blood group is known as the universal donor?,A+,B+,AB+,O-,O-
+15,4,What is the square root of 144?,10,11,12,13,12
+16,4,Which country has the most population as of 2026?,United States,India,China,Indonesia,India
+17,4,What is the currency of Japan?,Won,Yen,Yuan,Ringgit,Yen
+18,5,Which layer of Earth lies directly beneath the crust?,Core,Mantle,Outer Core,Inner Core,Mantle
+19,5,Who developed the theory of relativity?,Isaac Newton,Galileo Galilei,Albert Einstein,Niels Bohr,Albert Einstein
+20,5,Which is the longest river in the world?,Amazon,Nile,Yangtze,Mississippi,Nile
