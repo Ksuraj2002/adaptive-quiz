@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import axios from "axios"; // Switched to Axios as per your stack requirement
 import { useRouter } from "next/navigation";
+import api from "@/utils/api";
 
 
 interface QuestionStructure {
@@ -37,13 +37,13 @@ export default function AdaptiveQuizEngine() {
 
       const saved_email = localStorage.getItem("loggedInEmail");
       // 1. Point to your local FastAPI Python server running on port 8000
-      let url = `http://127.0.0.1:8000/api/ques?email=${saved_email}&cur_diff=${currentDiff}`;
+      let url = `/api/ques?email=${saved_email}&cur_diff=${currentDiff}`;
       if (wasCorrect !== undefined) {
         url += `&was_cor=${wasCorrect}`;
       }
 
       // 2. Switched from fetch() to axios.get()
-      const response = await axios.get(url);
+      const response = await api.get(url);
 
 
 
@@ -101,7 +101,7 @@ export default function AdaptiveQuizEngine() {
     const email = localStorage.getItem("loggedInEmail");
 
     try{
-      await axios.post("http://127.0.0.1:8000/api/save-attempt", {
+      await api.post("/api/save-attempt", {
         email: email,
         ques_id: question?.id,
       

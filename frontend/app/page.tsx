@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import axios from "axios"
+
+import api from "@/utils/api"
 
 
 
@@ -24,7 +25,7 @@ export default function LoginPage() {
 
       
 
-      const response = await axios.post("http://localhost:8000/api/user-profile",{
+      const response = await api.post("/api/user-profile",{
         email: email,
         password: password,
       });

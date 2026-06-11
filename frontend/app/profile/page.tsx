@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import AdaptiveQuizEngine from "./ques_front";
 
-import axios from "axios"
 
 export default function ProfilePage() {
 
