@@ -5,20 +5,19 @@ import os
 from datetime import datetime
 from pydantic import BaseModel
 
-
-
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 router = APIRouter()
 
-ques_file = "../model/questions.csv"
+ques_file = os.path.join(BASE_DIR, "..", "model", "questions.csv")
 
-history_file = "../model/history.csv"
+history_file = os.path.join(BASE_DIR, "..", "model", "history.csv")
 
 class HistoryRecord(BaseModel):
     email: str
     ques_id: int
     
+
 
 # def get_unattempted_ques(email: str) -> dict:
 

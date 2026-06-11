@@ -12,7 +12,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -84,7 +84,7 @@ def user_profile(data: ProfileRequest):
 
 if __name__ == "__main__":
     uvicorn.run(
-        app,           # 👈 Changed "main:app" to just app
+        app,          
         host="127.0.0.1",
         port=8000
     )

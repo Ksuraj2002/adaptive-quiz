@@ -3,8 +3,14 @@ import pandas as pd
 from datetime import datetime
 import os
 
-file = "../model/user.csv"
-history_file = "../model/history.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
+
+file = os.path.join(BASE_DIR, "..", "model", "user.csv")
+history_file = os.path.join(BASE_DIR, "..", "model", "history.csv")
+
+
 
 print("Script started")
 

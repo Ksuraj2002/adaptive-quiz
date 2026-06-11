@@ -33,7 +33,6 @@ venv.bak/
 # Project Specific
 # =========================
 # Ignore user generated history, but keep questions.csv and user.csv
-model/history.csv
 
 # =========================
 # OS Generated Files
